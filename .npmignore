@@ -2,3 +2,7 @@ src
 tsconfig.json
 dist/coverage
 *.tgz
+test/
+jest.config.js
+.gitignore
+node_modules/
