@@ -7,7 +7,7 @@ describe('Set Service', () => {
         const params: Parameter = { q: 'name:Base' };
 
         const result: Set[] = await findSetsByQueries(params);
-        expect(result[0].name).toEqual('Base');
+        expect(result[0].name).toEqual('Expedition Base Set');
     })
 
     it('should get a single set using a set id', async () => {
