@@ -11,6 +11,7 @@ import { Type } from '../enums/type';
 import { Supertype } from '../enums/supertype';
 import { Subtype } from '../enums/subtype';
 import { Rarity } from '../enums/rarity';
+import { CardMarket } from './cardmarket';
 
 export interface Card {
     id: string;
@@ -38,4 +39,5 @@ export interface Card {
     legalities: ILegality;
     images: CardImage;
     tcgplayer?: TCGPlayer;
+    cardmarket?: CardMarket;
 }
